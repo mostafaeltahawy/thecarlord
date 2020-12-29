@@ -252,6 +252,10 @@ li{
     height: 212px;
   }
 
+  .msg a{
+    text-decoration: none;
+  }
+
   .homepage{
       position: fixed; /*link to homepage in contact page*/
   }
@@ -265,6 +269,12 @@ li{
       cursor: pointer;
       text-transform: uppercase;
   }
+
+  .btn:hover{
+    transform: scale(1.1);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
   /*Styling for different display size*/
 
   @media screen and (max-width: 600px){
