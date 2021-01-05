@@ -200,6 +200,17 @@ li{
 .carpic:hover{
    transform: scale(0.9);
 }
+.my-info p{
+  font-size: 25px;
+}
+.types p{
+  font-size: 25px;
+}
+.my-info td img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   /*Styling for different display size*/
 
@@ -237,7 +248,7 @@ li{
         width: 150px;
     }
     .my-info p{
-      font-size: 13px;
+      font-size: 15px;
     }
   }
   /*Smaller phones*/
@@ -246,10 +257,10 @@ li{
       font-size: 11px;
     }
     .me{
-      width: 80px;}
+      width: 125px;}
   }
   #Home{
-    margin-bottom: 300px;
+    margin-bottom: -100px;
 }
   p{
     font-size: 15px;
@@ -268,7 +279,7 @@ li{
         float: left;
     }
     #Home{
-        margin-bottom: 800px;
+        margin-bottom: 1100px;
     }
     .nav a{
         padding: 8px;
@@ -285,8 +296,5 @@ li{
         z-index: 2;
     }
   }
-  @media screen and (max-height: 1500px){
-    #Home{
-      margin-bottom: 1450px;
-  }
-  }
+  
+  
