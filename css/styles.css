@@ -13,7 +13,7 @@ hgroup, menu, nav, section {
     top: 3em;
     width:100%;
     height: 100%;   
-    
+    margin-bottom: 100px;
 }
 .logo-placement{
     position: absolute;
@@ -250,6 +250,9 @@ li{
     .my-info p{
       font-size: 15px;
     }
+    p{
+      font-size: 20px;
+    }
   }
   /*Smaller phones*/
   @media screen and (max-width: 415px){
@@ -263,7 +266,7 @@ li{
     margin-bottom: -100px;
 }
   p{
-    font-size: 15px;
+    font-size: 18px;
   }
   table{
     width: 100%;
