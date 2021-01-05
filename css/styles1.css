@@ -71,3 +71,15 @@
   .btn:hover{
     transform: scale(1.1);
   }
+
+  @media screen and (max-width: 400px){
+    .contact-form{
+      flex-direction: row;
+    }
+    .msg textarea{
+      height: 150px;
+    }
+    .input-fields,
+    .msg{
+      width: 100%;
+    }}

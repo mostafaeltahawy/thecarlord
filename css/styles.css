@@ -240,9 +240,28 @@ li{
       font-size: 13px;
     }
   }
+  /*Smaller phones*/
+  @media screen and (max-width: 400px){
+    .my-info p{
+      font-size: 11px;
+    }
+    .me{
+      width: 80px;}
+  }
+  #Home{
+    margin-bottom: 300px;
+}
+  p{
+    font-size: 15px;
+  }
+  table{
+    width: 100%;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
   /*Ipad/Tablet display*/
 
-  @media screen and (max-width: 1000px){
+  @media screen and (max-width: 1024px){
     .coverimage{
         position: absolute;
         height: 100%;
