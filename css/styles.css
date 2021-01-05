@@ -241,7 +241,7 @@ li{
     }
   }
   /*Smaller phones*/
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 415px){
     .my-info p{
       font-size: 11px;
     }
@@ -284,4 +284,9 @@ li{
     .homepage{
         z-index: 2;
     }
+  }
+  @media screen and (max-height: 1500px){
+    #Home{
+      margin-bottom: 1450px;
+  }
   }

@@ -72,7 +72,7 @@
     transform: scale(1.1);
   }
 
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 415px){
     .contact-form{
       flex-direction: row;
     }
