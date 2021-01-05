@@ -231,7 +231,7 @@ li{
         float: left;
     }
     #Home{
-        margin-bottom: 500px;
+        margin-bottom: 100px;
     }
     .nav a{
         padding: 10px;
@@ -255,18 +255,19 @@ li{
     }
   }
   /*Smaller phones*/
-  @media screen and (max-width: 415px){
+  @media screen and (max-width: 414px){
     .my-info p{
       font-size: 11px;
     }
     .me{
       width: 125px;}
   }
-  #Home{
-    margin-bottom: -100px;
+  
+  .types p{
+    font-size: 18px;
 }
   p{
-    font-size: 18px;
+    font-size: 15px;
   }
   table{
     width: 100%;
@@ -282,7 +283,7 @@ li{
         float: left;
     }
     #Home{
-        margin-bottom: 1100px;
+        margin-bottom: 1000px;
     }
     .nav a{
         padding: 8px;
@@ -297,6 +298,11 @@ li{
     }
     .homepage{
         z-index: 2;
+    }
+  }
+  @media screen and (min-height: 1366px){
+    #Home{
+      margin-bottom: 1450px;
     }
   }
   
